@@ -1,0 +1,32 @@
+/* 전체 페이지를 화면의 중앙에 정렬 */
+pb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* 가운데 정렬할 컨테이너 스타일링 */
+  .container {
+    text-align: center;
+    background-color: #ffffff; /* 컨테이너 배경색 지정 (원하는 색상으로 변경 가능) */
+    padding: 20px;
+    border-radius: 10px; /* 모서리를 둥글게 만듦 */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 그림자 효과 추가 */
+  }
+  
+  /* 컨텐츠 스타일링 (텍스트 중앙 정렬) */
+  .content {
+    text-align: center;
+  }
+  
+  /* 제목 스타일링 */
+  h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  /* 내용 스타일링 (1열로 배치) */
+  p {
+    margin: 5px 0;
+  }
+  

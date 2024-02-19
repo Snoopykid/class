@@ -1,0 +1,222 @@
+.pb {
+    width: 1920px;
+    height: 1080px;
+    flex-shrink: 0;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 670px;
+    height: 960px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border: 1px solid #aacdff;
+    background: #fff;
+    box-shadow: 7px 7px 39px 0px rgba(0, 104, 255, 0.25);
+    justify-content: center;
+    align-items: center;
+}
+
+.signup {
+width: 466px;
+color: #0068FF;
+font-family: Noto Sans CJK KR;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding: 72px 104px 60px 100px;
+}
+
+.email {
+    width: 158px;
+    height: 23.649px;
+    flex-shrink: 0;
+    color: #797979;
+    font-family: Noto Sans CJK KR;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 0px 412px 35.35px 100px;
+}
+
+.vector1 {
+width: 466px;
+height: 0px;
+flex-shrink: 0;
+stroke-width: 1px;
+stroke: #0068FF;
+padding: 0px 104px 21px 100px;
+}
+
+.name {
+width: 158px;
+height: 23.649px;
+flex-shrink: 0;
+color: #797979;
+font-family: Noto Sans CJK KR;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding: 21px 412px 35.35px 100px;
+}
+
+.vector2 {
+width: 466px;
+height: 0px;
+flex-shrink: 0;
+stroke-width: 1px;
+stroke: #CFCFCF;
+padding: 0px 104px 21px 100px;
+}
+
+.password {
+width: 158px;
+height: 23.649px;
+flex-shrink: 0;
+color: #797979;
+font-family: Noto Sans CJK KR;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding: 21px 412px 35.35px 100px;
+}
+
+.vector3 {
+    width: 466px;
+    height: 0px;
+    flex-shrink: 0;
+    stroke-width: 1px;
+    stroke: #CFCFCF;
+    padding: 0px 104px 21px 100px;
+    }
+
+.passwordcheck{
+width: 158px;
+height: 23.649px;
+flex-shrink: 0;
+color: #797979;
+font-family: Noto Sans CJK KR;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding: 21px 412px 35.35px 100px;
+}
+
+.vector4 {
+    width: 466px;
+    height: 0px;
+    flex-shrink: 0;
+    stroke-width: 1px;
+    stroke: #CFCFCF;
+    padding: 0px 104px 21px 100px;
+    }
+
+/* 스타일을 적용할 라디오 그룹 */
+.radio-group {
+    display: flex;
+    align-items: center;
+    padding: 15.65px 255px 50px 255px;
+  }
+  
+  /* 라디오 라벨 스타일링 */
+  .radio-label {
+    display: flex;
+    align-items: center;
+    margin-right: 20px; /* 라디오 버튼 사이 간격 설정 */
+    cursor: pointer;
+  }
+  
+  /* 라디오 버튼 숨김 (표시 여부는 라벨의 가상 라디오 버튼을 통해 처리됩니다) */
+  input[type="radio"] {
+    display: none;
+  }
+  
+  /* 라디오 버튼 라벨에 대한 스타일 */
+  .radio-label svg {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px; /* 아이콘과 텍스트 사이 간격 설정 */
+    flex-shrink: 0;
+  }
+  
+  /* 라디오 버튼 선택 시 아이콘 색상 변경 (여성 선택 시의 예시) */
+  input[type="radio"][value="female"]:checked + .radio-label svg {
+    fill: #EBEBEB; /* 원하는 색상으로 변경 가능 */
+    stroke-width: 1px;
+    stroke: #D2D2D2;
+  }
+
+.apply {
+width: 454px;
+height: 21.056px;
+flex-shrink: 0;
+padding: 0px 104px 30px 112px;
+}
+
+input[type="text"] { 
+width: 419px;
+height: 21px;
+flex-shrink: 0;
+color: #000;
+font-family: Noto Sans CJK KR;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+.apply-border {
+    border: none;
+}
+
+.apply-label svg {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px; /* 아이콘과 텍스트 사이 간격 설정 */
+    flex-shrink: 0;
+  }
+
+.vector6 {
+width: 470px;
+height: 0px;
+flex-shrink: 0;
+stroke-width: 1px;
+background: #E6E6E6;
+padding: 0px 104px 0px 100px;
+
+    }
+
+/* 버튼 스타일 적용 */
+.signup-button {
+    width: 470px;
+    height: 75px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #0068FF;
+    background: #FFF;
+    margin: 60px 100px 70px 100px;
+    color: #0068FF;
+text-align: center;
+font-family: Noto Sans CJK KR;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+  }
+  
+
+input [type="button"]{
+width: 70;
+}
