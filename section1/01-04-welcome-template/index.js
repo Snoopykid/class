@@ -1,4 +1,4 @@
-function getWelcomeTemplate({name, age, school, createdAt}){
+function getWelcomeTemplate({name, age, school, createdAt}){ // 실무에서는 객체를 할당하여 변수 하나가 빠지더라도 안전하도록 설계한다.
     const mytemplate = `
     <html>
         <body>
