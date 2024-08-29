@@ -5,12 +5,12 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "start:dev": "nodemon index.jx"
+    "start:dev": "nodemon index.js"
   },
   "dependencies": {
     "express": "^4.19.2",
-    "nodemon": "^3.1.0",
+    "nodemon": "^3.1.4",
     "swagger-jsdoc": "^6.2.8",
-    "swagger-ui-express": "^5.0.0"
+    "swagger-ui-express": "^5.0.1"
   }
 }
