@@ -50,7 +50,7 @@ app.post("/tokens/phone", function (req, res) {
     // 1. 휴대폰번호 자릿수 맞는지 확인하기(10~11자리)
     const isValid = checkPhone(myphone)
     if(isValid === false){
-        return
+        return res.status(400).send("유효하지 않은 전화번호입니다.");
     }
 
     // 2. 핸드폰 토큰 6자리 만들기
@@ -60,6 +60,6 @@ app.post("/tokens/phone", function (req, res) {
     sendTokenToSMS(myphone, mytoken)
 
     res.send("인증 완료!")
-}) 
+})
 
 app.listen(3000)
