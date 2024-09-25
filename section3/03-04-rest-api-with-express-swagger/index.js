@@ -17,7 +17,7 @@ import {options} from './swagger/config.js'
 
 const app = express()
 app.use(express.json())     // 옛날에는 bodyParser 사용
-app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerJsdoc(options)));
+app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerJsdoc(options))); // 
 app.get('/boards', function (req, res){
 // 1. DB에 접속 후, 데이터를 조회 => 데이터를 조회했다고 가정
     const result = [
