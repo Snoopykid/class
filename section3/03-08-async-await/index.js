@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-function fetchAsync() {
+const fetchAsync = () => {
     const result = axios.get("https://koreanjson.com/posts/1")
     console.log("비동기 방식: ", result) // Promise { <pending> }
 }
